@@ -1,0 +1,47 @@
+header {
+    background-color: var(--main-pink);
+}
+
+.button-wrapper {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.entry-level, .senior-level {
+    width:400px;
+    height:400px;
+    background-color:var(--main-pink);
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    margin:40px;
+    text-align:center;
+    transition: .3s ease-in-out;
+
+}
+
+.entry-level {
+    background-image:url(../assets/sm-background2.png);
+    background-size: cover;
+}
+
+.senior-level {
+    background-image:url(../assets/sm-background.png);
+    background-size: cover;
+}
+
+.entry-level:hover, .senior-level:hover {
+    /* color:white; */
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.container a, .container a:visited {
+    color:var(--main-dark);
+    text-decoration: none;
+}

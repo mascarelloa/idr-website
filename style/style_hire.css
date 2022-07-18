@@ -1,0 +1,41 @@
+header {
+    background-color: var(--main-pink);
+}
+
+
+.step-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top:50px;
+  }
+  .step {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    margin:20px;
+    /* background-color: var(--main-dark); */
+    border-radius:20px;
+    min-width:200px;
+  }
+
+  .step h1 {
+      color:var(--not-white);
+      font-size:90px;
+      text-align:left;
+      margin-bottom:10px;
+  }
+
+  .step h5 {
+      color:var(--not-white);
+  }
+
+
+  .step h5:after {
+  content: ""; 
+    display: block; 
+    margin: 0;
+    margin-bottom:15px; 
+    width: 10%; 
+    padding-top: 15px; 
+    border-bottom: 6px solid; 
+}
