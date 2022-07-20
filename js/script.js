@@ -94,6 +94,32 @@ for (i = 0; i < acc.length; i++) {
 
 
 
+$(".toggle_btn").click(function(){
+    $(this).toggleClass("active");
+   $(".resource-list ul").toggleClass("active");
+
+   if($(".toggle_btn").hasClass("active")){
+     $(".toggle_text").text("Show Less");
+   }
+   else{
+     $(".toggle_text").text("Show More");
+   }
+ });
+
+
+ $(".toggle_btn2").click(function(){
+    $(this).toggleClass("active");
+   $(".resource-list2 ul").toggleClass("active");
+
+   if($(".toggle_btn2").hasClass("active")){
+     $(".toggle_text2").text("Show Less");
+   }
+   else{
+     $(".toggle_text2").text("Show More");
+   }
+ });
+
+
 
 
 

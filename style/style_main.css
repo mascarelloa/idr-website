@@ -166,12 +166,18 @@ p {
     margin-bottom: 20px;
     border: 4px solid var(--main-pink);
     transition: .3s ease-in-out;
+    display:inline;
 }
 
 .main-button:hover {
     color: white;
     background-color: var(--main-pink);
 }
+
+
+
+
+
 
 
 

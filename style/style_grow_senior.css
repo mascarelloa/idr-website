@@ -7,14 +7,10 @@ header {
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:space-between;
+    margin-top:40px;
 }
 
-.resource-list {
-    width:500px;
-}
-.resource-list li {
-    color:var(--not-white);
-}
+
 
 .step-wrapper {
     display:flex;
@@ -47,3 +43,111 @@ header {
   .resource-img img {
       width:150px;
   }
+
+
+
+
+  .resource-list{
+    width: 500px;
+    color:var(--not-white);
+    font-family:montserrat;
+    margin-bottom:5px;
+    }
+
+    .resource-list  ul{
+      height: 335px;
+      overflow: hidden;
+      padding-left: 15px;
+    }
+    
+    .resource-list  ul.active{
+    height: auto;
+    }
+    
+    .resource-list  ul li{
+    margin-bottom: 5px;
+    list-style: none;
+    position: relative;
+    }
+    
+    .resource-list  ul li:before{
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: -12px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #bfbfbf;
+    }
+
+
+
+.resource-list .toggle_btn{
+    font-weight: 700;
+    font-family:montserrat;
+    color:var(--main-pink);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    }
+    
+    .resource-list .toggle_btn.active .fas{
+    transform: rotate(180deg);
+    }
+
+
+
+
+
+
+
+
+    .resource-list2{
+        width: 500px;
+        color:var(--not-white);
+        font-family:montserrat;
+        margin-bottom:5px;
+        }
+    
+        .resource-list2  ul{
+          height: 340px;
+          overflow: hidden;
+          padding-left: 15px;
+        }
+        
+        .resource-list2  ul.active{
+        height: auto;
+        }
+        
+        .resource-list2  ul li{
+        margin-bottom: 5px;
+        list-style: none;
+        position: relative;
+        }
+        
+        .resource-list2  ul li:before{
+          content: "";
+          position: absolute;
+          top: 8px;
+          left: -12px;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background: #bfbfbf;
+        }
+    
+    
+    
+    .resource-list2 .toggle_btn2{
+        font-weight: 700;
+        font-family:montserrat;
+        color:var(--main-pink);
+        cursor: pointer;
+        font-size: 15px;
+        padding: 10px;
+        }
+        
+        .resource-list2 .toggle_btn2.active .fas{
+        transform: rotate(180deg);
+        } 
