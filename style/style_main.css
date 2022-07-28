@@ -208,11 +208,12 @@ header {
 
 .nav a {
     font-family: montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 15px 15px 8px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 25px 8px 25px;
     color: var(--main-dark);
     text-decoration: none;
+    text-transform:uppercase;
     transition: .3s ease-in-out;
     border-bottom: 3px solid transparent;
 }

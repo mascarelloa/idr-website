@@ -26,20 +26,33 @@ header {
     flex-direction:column;
     justify-content:flex-start;
     align-items:center;
-    width:300px;
+    width:350px;
     padding:20px;
 }
 
 
 
   .grow-step img {
-      height:350px;
+      height:250px;
   }
 
   .grow-step h4 {
       margin-top:20px;
   }
   
+  .grow-step p {
+    font-size:14px;
+    
+}
+
+.grow-step a, .grow-steap a:visited {
+    color: #C2969D;
+    font-weight:500;
+    transition: .3 ease-in-out;
+}
+.grow-step a:hover {
+    color: var(--main-dark);
+}
   .resource-img img {
       width:150px;
   }
@@ -151,3 +164,63 @@ header {
         .resource-list2 .toggle_btn2.active .fas{
         transform: rotate(180deg);
         } 
+
+
+        .tabs {
+            display: flex;
+            flex-wrap: wrap; 
+            margin-top:25px;
+            
+        }
+        .tabs label {
+            order: 1; 
+            display: block;
+            padding: 1rem 2rem;
+            margin-right: 0.2rem;
+            cursor: pointer;
+          background: var(--main-pink);
+          font-family:montserrat;
+          font-weight: bold;
+          transition: background ease 0.2s;
+        }
+        
+        .tabs .tab {
+          order: 99; 
+          flex-grow: 1;
+            width: 100%;
+            display: none;
+          padding: 1rem;
+          background: #f3f3f3;
+        }
+        .tabs input[type="radio"] {
+            display: none;
+        }
+        .tabs input[type="radio"]:checked + label {
+            background: #f3f3f3
+        }
+        .tabs input[type="radio"]:checked + label + .tab {
+            display: block;
+        }
+        
+        @media (max-width: 45em) {
+          .tabs .tab,
+          .tabs label {
+            order: initial;
+          }
+          .tabs label {
+            width: 100%;
+            margin-right: 0;
+            margin-top: 0.2rem;
+          }
+        }
+        
+        .tab li {
+          font-family: montserrat;
+          
+        }
+        
+        .tab h5 {
+          color:var(--main-dark);
+          margin-top:15px;
+          margin-bottom:15px;
+        }
