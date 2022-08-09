@@ -239,3 +239,31 @@ margin-bottom:35px;
 .panel a:hover {
     color: var(--main-dark);
 }
+
+.tab2 a, .tab2 a:visited {
+    color: #C2969D;
+    font-weight:500;
+    transition: .3 ease-in-out;
+}
+.tab2 a:hover {
+    color: var(--main-dark);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .panel p, .panel ul {
+        font-size:14px;
+    }
+
+    .tab p, .tab2 li, .tabs , .tabs2 {
+        font-size:14px;
+    }
+
+    label, .accordian {
+        font-size:16px;
+    }
+
+    blockquote {
+        display:none;
+    }
+}

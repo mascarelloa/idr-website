@@ -39,3 +39,22 @@ header {
     padding-top: 15px; 
     border-bottom: 6px solid; 
 }
+
+
+@media only screen and (max-width: 1275px) {
+    .step-grid {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .step-grid {
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .step h1 {
+        font-size:65px;
+    }
+}

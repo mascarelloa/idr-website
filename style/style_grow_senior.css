@@ -15,7 +15,7 @@ header {
 .step-wrapper {
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:center;
     flex-wrap:wrap;
 
 }
@@ -26,8 +26,8 @@ header {
     flex-direction:column;
     justify-content:flex-start;
     align-items:center;
-    width:350px;
-    padding:20px;
+    width:325px;
+    padding:30px;
 }
 
 

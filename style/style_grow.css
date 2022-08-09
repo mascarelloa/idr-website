@@ -45,3 +45,13 @@ header {
     color:var(--main-dark);
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 500px) {
+
+    .entry-level, .senior-level {
+        width:300px;
+        height:300px;
+    }
+    
+}

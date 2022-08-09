@@ -753,3 +753,82 @@ padding-bottom:25px;
 .social-links a:hover {
     color:var(--main-pink);
 }
+
+/* ---------- Responsive Properties ---------- */
+
+@media only screen and (max-width: 850px) {
+
+.right-footer {
+    display:none;
+}
+
+.slide-content p {
+    font-size:12px;
+}
+
+.footer-content2 {
+    justify-content:center;
+    text-align:center;
+}
+
+}
+
+
+
+@media only screen and (max-width: 570px) {
+h1 {
+    font-size:50px;
+}
+
+h2 {
+    font-size:30px;
+}
+
+h3 {
+    font-size:30px !important; 
+}
+
+.hero-links a {
+    font-size:20px;
+    border: 4px solid;
+}
+
+.left-footer {
+    flex-direction:column;
+    text-align:center;
+}
+
+.footer-content {
+    justify-content:center;
+}
+
+.link-list {
+    margin:0;
+}
+
+.slide-content {
+    padding:10px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    display:none;
+}
+}
+
+
+@media only screen and (max-width: 450px) {
+    .logo svg {
+        height: 35px;
+    }
+
+    .aa-mobile-nav-items > li > a {
+    
+        font-size: 30px;
+       
+      }
+
+      .main-button {
+        font-size:13px;
+        border:3px solid;
+    }
+}
