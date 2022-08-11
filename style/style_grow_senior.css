@@ -304,6 +304,7 @@ header {
 
        ul {
            font-family: montserrat;
+           background-color:transparent;
        }
 
        blockquote {
@@ -313,3 +314,7 @@ header {
         font-family:montserrat;
     }
     
+
+    .sources {
+        background-color:transparent;
+    }
