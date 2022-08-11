@@ -89,6 +89,11 @@ header {
   .team-member img {
       max-width:225px;
       margin-bottom:20px;
+      transition: .3s ease-in-out;
+  }
+
+  .team-member img:hover {
+    transform: scale(1.05)
   }
 
   .team-color-overlay {
@@ -101,6 +106,8 @@ header {
     opacity: 0.85;
     z-index: 1;
   }
+
+  
 
 
 

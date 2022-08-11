@@ -120,6 +120,3 @@ $(".toggle_btn").click(function(){
  });
 
 
-
-
-
